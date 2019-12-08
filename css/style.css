@@ -1,4 +1,9 @@
-@charset "utf-8";
+/*******************/
+/* CSS For Project */
+/*      Three      */
+/*******************/
+/* By Mark Sporich */
+/*******************/
 
 body {
 	font-family: sans-serif;
@@ -9,13 +14,16 @@ body {
 	/* transition: all 1s; */
 }
 
-h1, h2 {
-}
-
 /* header styles */
 
 h1 {
   font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -35,7 +43,7 @@ section article {
 	border: 1px solid black;
 	box-shadow: 0 2px 14px grey;
 	padding: 2.5%;
-	width: 25%
+	width: 30%;
 }
 article img {
 	display: block;
@@ -48,9 +56,4 @@ section p {
 
 section ul {
   margin-top: 0;
-}
-
-h2 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
 }
