@@ -25,18 +25,18 @@ request.onload = function() {
 function populateHeader(jsonObject) {
 
 	let headerH1 = document.createElement("h1"); 
-	headerH1.innerHTML = jsonObj["siteName"];
+	headerH1.innerHTML = jsonObject["siteName"];
 	header.appendChild(headerH1);
 
 	let headerH2 = document.createElement("h2");
-	headerH2.innerHTML = "<em>Site Established in Ye Olde " + jsonObj["yearMade"] + "</em>";
+	headerH2.innerHTML = "<em>Site Established in Ye Olde " + jsonObject["yearMade"] + "</em>";
 	header.appendChild(headerH2);
 
 }
 
 function topDeals(jsonObject) {
 
-	let topDeals = jsonObj["topDeals"];
+	let topDeals = jsonObject["topDeals"];
 
 	for (let i = 0; i < topDeals.length; i++) {
 
