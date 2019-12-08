@@ -1,4 +1,5 @@
 {
+
 	"siteName" : "Weird Deals",
 	"yearMade" : 2019, 
 	
@@ -7,8 +8,8 @@
 		{
 		
 			"name" : "Uranium Ore",
-			"price : 39.95,
-			"description : "Small tin of uranium ore. Buy now for your chance of radioactive death."
+			"price" : 39.95,
+			"description" : "Small tin of uranium ore. Buy now for your chance of radioactive death.",
 			"features" : [
 				
 				"Cool logo",
@@ -22,8 +23,8 @@
 		{
 			
 			"name" : "Godzilla Garden Gnome",
-			"price : 24.99,
-			"description : "Gaze upon the mighty Godzilla as he triumphs over the puny gnomes!"
+			"price" : 24.99,
+			"description" : "Gaze upon the mighty Godzilla as he triumphs over the puny gnomes!",
 			"features" : [
 				
 				"Quite tall",
@@ -38,8 +39,8 @@
 		{
 			
 			"name" : "Fish Pencil Case",
-			"price : 3.97,
-			"description : "Truly magnificent, the fish pencil case allows one to flaunt their superiority over the other lowly students."
+			"price" : 3.97,
+			"description" : "Truly magnificent, the fish pencil case allows one to flaunt their superiority over the other lowly students.",
 			"features" : [
 				
 				"Pretty colours",
@@ -49,13 +50,13 @@
 			],
 			"image" : "fish-pencil-case.jpg"
 			
-		}
+		},
 
 		{
 			
 			"name" : "Replica Human Fat",
-			"price : 23.73,
-			"description : "The item you always knew you needed, but never realized."
+			"price" : 23.73,
+			"description" : "The item you always knew you needed, but never realized.",
 			"features" : [
 				
 				"Very smooth",
@@ -69,8 +70,8 @@
 		{
 			
 			"name" : "Pigeon Mask",
-			"price : 27.48,
-			"description : "A mask made in heaven."
+			"price" : 27.48,
+			"description" : "A mask made in heaven.",
 			"features" : [
 				
 				"Eye holes",
