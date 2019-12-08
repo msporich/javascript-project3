@@ -54,7 +54,7 @@ function topDeals(jsonObject) {
 		p1.innerHTML = topDeals[i].price; 
 		p2.innerHTML = topDeals[i].description; 
 
-		let features = topFlavours[i].features;
+		let features = topDeals[i].features;
 
 		for(let j = 0; j < features.length; j++ ) {
 
