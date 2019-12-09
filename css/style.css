@@ -44,11 +44,15 @@ section article {
 	box-shadow: 0 2px 14px grey;
 	padding: 2.5%;
 	width: 30%;
+	margin: 1%;
+	border-radius: 10px;
 }
 article img {
 	display: block;
 	height: 150px;
 	width: 90px;
+	margin-left: auto;
+	margin-right: auto;
 }
 section p {
   margin: 5px 0;
