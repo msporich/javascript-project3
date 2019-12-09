@@ -79,12 +79,12 @@ function topDeals(jsonObject) {
 
 // Initialize and add the map
 function initMap() {
-  // The location of Uluru
-  var coords = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
+  // The location of Weird Deals (which is actually just the bus station) :)
+  var coords = {lat: -44.387397, lng: -79.690036};
+  // The map centered on the coordinates
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 4, center: coords});
-  // The marker, positioned at Uluru
+  // The marker, positioned at Weird Deals
   var marker = new google.maps.Marker({position: coords, map: map});
 }
 
