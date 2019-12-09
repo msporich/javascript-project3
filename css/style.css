@@ -47,6 +47,7 @@ header p {
 }
 
 /* section styles */
+
 section {
 	
 	display: flex;
@@ -54,6 +55,7 @@ section {
 	margin-bottom: 5rem;
 	
 }
+
 section article {
 	
 	border: 1px solid black;
@@ -65,6 +67,7 @@ section article {
 	background-color: #6ed467;
 	
 }
+
 article img {
 	
 	display: block;
@@ -76,6 +79,7 @@ article img {
 	border-radius: 10px;
 	
 }
+
 section p {
 	
 	margin: 5px 0;
@@ -87,3 +91,11 @@ section ul {
 	margin-top: 0;
 	
 }
+
+/* google maps api style */
+
+#map {
+	height: 400px;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+}
+
