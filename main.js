@@ -80,7 +80,7 @@ function topDeals(jsonObject) {
 // Initialize and add the map
 function initMap() {
   // The location of Weird Deals (which is actually just the bus station) :)
-  var coords = {lat: -44.387397, lng: -79.690036};
+  var coords = {lat: 44.387397, lng: -79.690036};
   // The map centered on the coordinates
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 4, center: coords});
